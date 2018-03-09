@@ -93,7 +93,7 @@ class HouseFacade {
   }
 
   public doLog(action: string = "N/A"): void {
-    console.log(`\n${action}:`);
+    console.log(`**************************\n${action}:`);
     console.log(`* Protetion on: ${this.houseProtection.isProtectionOn()}`);
     console.log(`* Light on: ${this.houseLigth.isRoomLightOn()}`);
     if (this.houseSauna.isHeatingOn()) {
