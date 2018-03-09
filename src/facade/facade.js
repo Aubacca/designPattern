@@ -1,6 +1,7 @@
 console.log("**************************");
 console.log("*** The Facade Pattern ***");
 console.log("**************************");
+// List of classes used in the facade.
 var HouseLight = /** @class */ (function () {
     function HouseLight() {
         this.room1LightOn = false;
@@ -44,7 +45,7 @@ var HouseProtection = /** @class */ (function () {
     };
     return HouseProtection;
 }());
-// Facade definition
+// Facade definition.
 var HouseFacade = /** @class */ (function () {
     function HouseFacade(houseLigth, houseSauna, houseProtection) {
         this.houseLigth = houseLigth;
