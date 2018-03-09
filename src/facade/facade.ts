@@ -2,6 +2,7 @@ console.log("**************************");
 console.log("*** The Facade Pattern ***");
 console.log("**************************");
 
+// List of classes used in the facade.
 class HouseLight {
   private room1LightOn: boolean = false;
 
@@ -47,7 +48,7 @@ class HouseProtection {
   }
 }
 
-// Facade definition
+// Facade definition.
 class HouseFacade {
   constructor(
     private houseLigth: HouseLight,
