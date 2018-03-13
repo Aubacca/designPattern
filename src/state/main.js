@@ -1,0 +1,38 @@
+"use strict";
+exports.__esModule = true;
+var requestTask_1 = require("./requestTask");
+console.log("*************************");
+console.log("*** The State Pattern ***");
+console.log("*************************");
+//
+// Test cases for state.
+var requestTask = new requestTask_1.RequestTask();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().taskSubmitted();
+requestTask.getRequestTaskState().rejectMasterData();
+requestTask.getRequestTaskState().masterData();
+requestTask.getRequestTaskState().technicalAssessment();
+requestTask.getRequestTaskState().technicalDetailing();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().taskSubmitted();
+requestTask.getRequestTaskState().rejectMasterData();
+requestTask.getRequestTaskState().masterData();
+requestTask.getRequestTaskState().technicalAssessment();
+requestTask.getRequestTaskState().technicalDetailing();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().masterData();
+requestTask.getRequestTaskState().technicalAssessment();
+requestTask.getRequestTaskState().rejectMasterData();
+requestTask.getRequestTaskState().taskSubmitted();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().technicalDetailing();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().masterData();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
+requestTask.getRequestTaskState().taskSubmitted();
+requestTask.getRequestTaskState().rejectMasterData();
+requestTask.getRequestTaskState().masterData();
+requestTask.getRequestTaskState().technicalAssessment();
+requestTask.getRequestTaskState().technicalDetailing();
+requestTask.getRequestTaskState().taskSubmitted();
+console.log("\nRequest: " + requestTask.getRequestTaskState().showState());
