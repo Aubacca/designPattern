@@ -2,8 +2,13 @@ console.log("*************************");
 console.log("*** The State Pattern ***");
 console.log("*************************");
 
+//import { IRequestTaskState } from "./iRequestTaskState";
+//import { TechnicalAssessmentState } from "./technicalAssessmentState";
+import { RequestTask } from "./requestTask";
+
 // List of classes/interfaces used for the state.
-class RequestTask {
+/*
+export class RequestTask {
   private _currentRequestTaskState: IRequestTaskState;
   public technicalAssessmentState: TechnicalAssessmentState;
   public technicalDetailingState: TechnicalDetailingState;
@@ -29,8 +34,10 @@ class RequestTask {
     return this._currentRequestTaskState;
   }
 }
+*/
 
 // State definition.
+/*
 interface IRequestTaskState {
   requestTask: RequestTask;
 
@@ -41,7 +48,8 @@ interface IRequestTaskState {
   taskSubmitted(): void;
   showState(): string;
 }
-
+*/
+/*
 class TechnicalAssessmentState implements IRequestTaskState {
   constructor(public requestTask: RequestTask) {}
 
@@ -70,7 +78,9 @@ class TechnicalAssessmentState implements IRequestTaskState {
     return "TechnicalAssessmentState";
   }
 }
+*/
 
+/*
 class TechnicalDetailingState implements IRequestTaskState {
   constructor(public requestTask: RequestTask) {}
 
@@ -99,7 +109,9 @@ class TechnicalDetailingState implements IRequestTaskState {
     return "TechnicalDetailingState";
   }
 }
+*/
 
+/*
 class MasterDatatState implements IRequestTaskState {
   constructor(public requestTask: RequestTask) {}
 
@@ -127,7 +139,9 @@ class MasterDatatState implements IRequestTaskState {
     return "MasterDatatState";
   }
 }
+*/
 
+/*
 class RejectMasterDataState implements IRequestTaskState {
   constructor(public requestTask: RequestTask) {}
 
@@ -158,7 +172,9 @@ class RejectMasterDataState implements IRequestTaskState {
     return "RejectMasterDataState";
   }
 }
+*/
 
+/*
 class TaskSbmittedState implements IRequestTaskState {
   constructor(public requestTask: RequestTask) {}
 
@@ -186,6 +202,7 @@ class TaskSbmittedState implements IRequestTaskState {
     return "TaskSbmittedState";
   }
 }
+*/
 
 //
 // Test cases for state.
