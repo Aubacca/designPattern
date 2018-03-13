@@ -1,5 +1,5 @@
 import { RequestTaskStatable } from "./requestTaskStatable";
-import { RequestTask } from "./requestTask";
+import { RequestTask } from "../requestTask";
 
 export class TechnicalAssessmentState implements RequestTaskStatable {
   constructor(public requestTask: RequestTask) {}

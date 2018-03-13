@@ -1,17 +1,17 @@
-import { RequestTaskStatable } from "./requestTaskStatable";
-import { TechnicalAssessmentState } from "./technicalAssessmentState";
-import { TechnicalDetailingState } from "./technicalDetailingState";
-import { MasterDatatState } from "./masterDatatState";
-import { RejectMasterDataState } from "./rejectMasterDataState";
-import { TaskSbmittedState } from "./taskSbmittedState";
+import { RequestTaskStatable } from "./requestTasks/requestTaskStatable";
+import { TechnicalDetailingState } from "./requestTasks/technicalDetailingState";
+import { MasterDatatState } from "./requestTasks/masterDatatState";
+import { TaskSbmittedState } from "./requestTasks/taskSbmittedState";
+import { RejectMasterDataState } from "./requestTasks/rejectMasterDataState";
+import { TechnicalAssessmentState } from "./requestTasks/technicalAssessmentState";
 
 export class RequestTask {
   private _currentRequestTaskState: RequestTaskStatable;
   public technicalAssessmentState: RequestTaskStatable;
-  public technicalDetailingState: TechnicalDetailingState;
-  public masterDataState: MasterDatatState;
-  public rejectMasterDataState: RejectMasterDataState;
-  public taskSubmittedState: TaskSbmittedState;
+  public technicalDetailingState: RequestTaskStatable;
+  public masterDataState: RequestTaskStatable;
+  public rejectMasterDataState: RequestTaskStatable;
+  public taskSubmittedState: RequestTaskStatable;
 
   constructor() {
     this.technicalAssessmentState = new TechnicalAssessmentState(this);

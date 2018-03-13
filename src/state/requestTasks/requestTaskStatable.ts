@@ -1,4 +1,4 @@
-import { RequestTask } from "./requestTask";
+import { RequestTask } from "../requestTask";
 
 // State definition.
 export interface RequestTaskStatable {
