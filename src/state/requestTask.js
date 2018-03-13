@@ -1,10 +1,10 @@
 "use strict";
 exports.__esModule = true;
-var technicalAssessmentState_1 = require("./technicalAssessmentState");
-var technicalDetailingState_1 = require("./technicalDetailingState");
-var masterDatatState_1 = require("./masterDatatState");
-var rejectMasterDataState_1 = require("./rejectMasterDataState");
-var taskSbmittedState_1 = require("./taskSbmittedState");
+var technicalDetailingState_1 = require("./requestTasks/technicalDetailingState");
+var masterDatatState_1 = require("./requestTasks/masterDatatState");
+var taskSbmittedState_1 = require("./requestTasks/taskSbmittedState");
+var rejectMasterDataState_1 = require("./requestTasks/rejectMasterDataState");
+var technicalAssessmentState_1 = require("./requestTasks/technicalAssessmentState");
 var RequestTask = /** @class */ (function () {
     function RequestTask() {
         this.technicalAssessmentState = new technicalAssessmentState_1.TechnicalAssessmentState(this);
