@@ -1,6 +1,6 @@
-import { MicroUsbConnectable } from "./microUsbConnectable";
-import { UsbConnectable } from "./usbConnectable";
-import { MiniUsbConnectable } from "./miniUsbConnectable";
+import { UsbConnectable } from "../usbConnectable";
+import { MicroUsbConnectable } from "../microUsbConnectable";
+import { MiniUsbConnectable } from "../miniUsbConnectable";
 
 export class MiniUsbAdapter implements UsbConnectable, MicroUsbConnectable {
   constructor(private _miniUsbDevice: MiniUsbConnectable) {}

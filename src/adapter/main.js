@@ -1,9 +1,9 @@
 "use strict";
 exports.__esModule = true;
-var usbConnector_1 = require("./usbConnector");
-var miniUsbConnector_1 = require("./miniUsbConnector");
-var usbAdapter_1 = require("./usbAdapter");
-var miniUsbAdapter_1 = require("./miniUsbAdapter");
+var usbConnector_1 = require("./connectors/usbConnector");
+var miniUsbConnector_1 = require("./connectors/miniUsbConnector");
+var usbAdapter_1 = require("./connectors/adapters/usbAdapter");
+var miniUsbAdapter_1 = require("./connectors/adapters/miniUsbAdapter");
 console.log("***************************");
 console.log("*** The Adapter Pattern ***");
 console.log("***************************");

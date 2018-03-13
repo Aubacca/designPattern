@@ -1,7 +1,7 @@
-import { UsbConnector } from "./usbConnector";
-import { MiniUsbConnector } from "./miniUsbConnector";
-import { UsbAdapter } from "./usbAdapter";
-import { MiniUsbAdapter } from "./miniUsbAdapter";
+import { UsbConnector } from "./connectors/usbConnector";
+import { MiniUsbConnector } from "./connectors/miniUsbConnector";
+import { UsbAdapter } from "./connectors/adapters/usbAdapter";
+import { MiniUsbAdapter } from "./connectors/adapters/miniUsbAdapter";
 
 console.log("***************************");
 console.log("*** The Adapter Pattern ***");
