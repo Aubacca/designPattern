@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var TechnicalAssessmentState = /** @class */ (function () {
     function TechnicalAssessmentState(requestTask) {
         this.requestTask = requestTask;

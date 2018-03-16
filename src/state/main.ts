@@ -1,8 +1,9 @@
 import { RequestTask } from "./requestTask";
 
 console.log("*************************");
-console.log("*** The State Pattern ***");
 console.log("*************************");
+console.log("*** The State Pattern ***");
+console.log("*************************\n");
 
 //
 // Test cases for state.

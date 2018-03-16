@@ -1,9 +1,10 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var requestTask_1 = require("./requestTask");
 console.log("*************************");
-console.log("*** The State Pattern ***");
 console.log("*************************");
+console.log("*** The State Pattern ***");
+console.log("*************************\n");
 //
 // Test cases for state.
 var requestTask = new requestTask_1.RequestTask();

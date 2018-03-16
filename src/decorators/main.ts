@@ -5,8 +5,9 @@ import { BicycleBreakOption } from "./bicycles/decorators/bicycleBreakOption";
 import { BicycleGearboxOption } from "./bicycles/decorators/bicycleGearboxOption";
 
 console.log("*****************************");
-console.log("*** The Decorator Pattern ***");
 console.log("*****************************");
+console.log("*** The Decorator Pattern ***");
+console.log("*****************************\n");
 
 //
 // Test cases for decorators.
