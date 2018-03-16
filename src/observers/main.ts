@@ -3,8 +3,9 @@ import { SwatchTemperaturDisplayer } from "./displayers/swatchTemperaturDisplaye
 import { MWatchTemperaturDisplayer } from "./displayers/mWatchTemperaturDisplayer";
 
 console.log("****************************");
-console.log("*** The Observer Pattern ***");
 console.log("****************************");
+console.log("*** The Observer Pattern ***");
+console.log("****************************\n");
 
 //
 // Test cases for observers.

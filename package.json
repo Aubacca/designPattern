@@ -1,0 +1,23 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "Patterns with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "samples":
+      "node ./src/adapter/main.js && node ./src/decorators/main.js && node ./src/facade/main.js && node ./src/observers/main.js && node ./src/state/main.js && node ./src/strategy/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aubacca/designPattern.git"
+  },
+  "keywords": ["pattern"],
+  "author": "Aubacca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aubacca/designPattern/issues"
+  },
+  "homepage": "https://github.com/Aubacca/designPattern#readme"
+}

@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var UsbAdapter = /** @class */ (function () {
     function UsbAdapter(_UsbDevice) {
         this._UsbDevice = _UsbDevice;

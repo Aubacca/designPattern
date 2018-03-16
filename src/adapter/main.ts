@@ -4,8 +4,9 @@ import { UsbAdapter } from "./connectors/adapters/usbAdapter";
 import { MiniUsbAdapter } from "./connectors/adapters/miniUsbAdapter";
 
 console.log("***************************");
-console.log("*** The Adapter Pattern ***");
 console.log("***************************");
+console.log("*** The Adapter Pattern ***");
+console.log("***************************\n");
 
 //
 // Test cases for adapter.

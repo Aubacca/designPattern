@@ -4,8 +4,9 @@ import { HouseProtection } from "./houses/houseProtection";
 import { HouseFacade } from "./houses/facades/HouseFacade";
 
 console.log("**************************");
-console.log("*** The Facade Pattern ***");
 console.log("**************************");
+console.log("*** The Facade Pattern ***");
+console.log("**************************\n");
 
 //
 // Test cases for facades.

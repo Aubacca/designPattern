@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var technicalDetailingState_1 = require("./requestTasks/technicalDetailingState");
 var masterDatatState_1 = require("./requestTasks/masterDatatState");
 var taskSbmittedState_1 = require("./requestTasks/taskSbmittedState");
